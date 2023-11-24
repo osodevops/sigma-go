@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/bradleyjkemp/sigma-go"
-	"github.com/bradleyjkemp/sigma-go/evaluator"
+	"github.com/osodevops/sigma-go"
+	"github.com/osodevops/sigma-go/evaluator"
 )
 
 const testRule = `

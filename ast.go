@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/bradleyjkemp/sigma-go/internal/grammar"
+	"github.com/osodevops/sigma-go/internal/grammar"
 )
 
 type Condition struct {

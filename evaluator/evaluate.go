@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bradleyjkemp/sigma-go"
+	"github.com/osodevops/sigma-go"
 )
 
 type RuleEvaluator struct {
@@ -30,6 +30,7 @@ type RuleEvaluator struct {
 // For example, if a Sigma rule has a condition like this (attempting to detect login brute forcing)
 //
 // detection:
+//
 //	  login_attempt:
 //	    # something here
 //	  condition:
@@ -40,6 +41,7 @@ type RuleEvaluator struct {
 // Each different GroupedByValues points to a different box.
 //
 // GroupedByValues
+//
 //	    ||
 //	 ___↓↓___          ________
 //	| User A |        | User B |

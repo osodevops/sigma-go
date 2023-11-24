@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bradleyjkemp/sigma-go/evaluator"
-	"github.com/bradleyjkemp/sigma-go/internal/slidingstatistics"
+	"github.com/osodevops/sigma-go/evaluator"
+	"github.com/osodevops/sigma-go/internal/slidingstatistics"
 )
 
 type inMemory struct {

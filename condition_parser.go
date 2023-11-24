@@ -3,7 +3,7 @@ package sigma
 import (
 	"github.com/alecthomas/participle"
 	"github.com/alecthomas/participle/lexer"
-	"github.com/bradleyjkemp/sigma-go/internal/grammar"
+	"github.com/osodevops/sigma-go/internal/grammar"
 )
 
 var (
