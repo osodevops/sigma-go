@@ -1,4 +1,4 @@
-module github.com/bradleyjkemp/sigma-go
+module github.com/osodevops/sigma-go
 
 go 1.18
 
@@ -12,6 +12,7 @@ require (
 
 require (
 	github.com/PaesslerAG/gval v1.0.0 // indirect
+	github.com/bradleyjkemp/sigma-go v0.6.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 )
